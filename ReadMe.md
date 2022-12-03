@@ -1,5 +1,9 @@
 # Job Hunt Google Search Script
 
+## About
+
+Just a way to run a fancy google search without having to copy and paste it all the time and update the dates in the query. Also opens the links automatically and leaves room for further filtering of search results if you want to get deeper into the web scraping side of things.
+
 ## Setup
 
 Make sure you have Python and Pip installed
