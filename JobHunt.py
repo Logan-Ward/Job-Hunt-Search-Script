@@ -7,9 +7,8 @@ try:
     from time import sleep
     from TestOpen import testArray
     from dotenv import load_dotenv
-    
 except ImportError:
-    print("Missing module, make sure you ran the install command")
+    print("Missing module(s), make sure you ran the install command")
 
 # Makes the .env variables accessible
 load_dotenv()
@@ -25,6 +24,7 @@ query = '{} after:{}'.format(os.getenv('QUERY'), fromDate)
 # that %s in the string
 browserPath = '{} %s'.format(os.getenv('BROWSERPATH'))
 
+# Main
 # Searches google then opens the first 20 results with a 3 second pause 
 # in-between each query to prevent google blocking your IP
 for j in search(query, tld="co.in", num=20, stop=20, pause=3):

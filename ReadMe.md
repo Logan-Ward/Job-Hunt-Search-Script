@@ -33,7 +33,7 @@ Enter this command to run the script which will open the first
 
 ## References
 
-If you have any issues and need some test values to debug with, uncomment the lines with the test array import and the test browser open section(make sure you comment out the main section so it does not try to make too many queries and time you out)
+If you have any issues and need some test values to debug with, uncomment the test browser open section and comment out the main section so it does not try to make too many queries and time you out
 
 Documentation for googlesearch library: 
 
